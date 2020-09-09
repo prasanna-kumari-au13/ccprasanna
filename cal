@@ -1,0 +1,53 @@
+Q1.Write the calculator program which will take input from users two numbers?
+ANS:
+         # menus
+           print("Calculator")
+           print("0.Addition")
+           print("1.Substraction")
+           print("2.Multiplication")
+           print("3.Divide")
+         # input choice from the user
+           ch=int(input("Enter Choice(0-3): "))
+             if ch==0:
+                 a=int(input("Enter A:"))
+                 b=int(input("Enter B:"))
+                 c=a+b
+                 print("addition = ",c)
+             elif ch==1:
+                 a=int(input("Enter A:"))
+                 b=int(input("Enter B:"))
+                 c=a-b
+                 print("subraction = ",c)
+             elif  ch==2:
+                  a=int(input("Enter A:"))
+                  b=int(input("Enter B:"))
+                  c=a*b
+                  print("Mulitiplication = ",c)
+             elif ch==3:
+                  a=int(input("Enter A:"))
+                  b=int(input("Enter B:"))
+                  c=a/b
+                  print("Divide = ",c)
+             else:
+                  print("Invalid Choice")
+Q2. Explain range in python with various examples?
+ANS.  *range(): 
+                 range() generates the integer numbers between the given start integer to the stop integer.
+     *range() function syntax and arguments.
+        syntax: range(start, stop, step).
+          It takes three arguments. Out of the three 2 arguments are optional. I.e., start and step are the optional arguments.
+
+                    A start argument is a starting number of the sequence. i.e., lower limit. By default, it starts with 0 if not specified.
+                   A stop argument is an upper limit. i.e., generate numbers up to this number, The range() doesn’t include this number in the result.
+                 The step is a difference between each number in the result. The default value of the step is 1 if not specified.
+          * range() function Examples:
+                1.  print(list(range(5,9,-2)))
+                       ouput:[]=>empty
+                 2.print(list(range(4,15,4)))
+                        output:[4,8,12]
+
+Q3.What will be the result of
+              int(6.6) + int(4.9)=?
+ANS:
+               output:10
+
